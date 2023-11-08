@@ -1,0 +1,103 @@
+@media (min-width: 320px) and (max-width: 320px) {
+    #cpfyt #phcontainer {
+        display: flex;
+        position: absolute;
+        width: 40%;
+        margin-top: -30px;
+        margin-right: 50px;
+    }
+    #cpfyt main {
+        width: 90%;
+        margin-top: 75px;
+    }
+    #cardcontainer{
+        padding-left: 0;
+    }
+}
+@media (max-width: 320px) {
+    #cpfyt #phcontainer {
+        display: flex;
+        position: absolute;
+        width: 40%;
+        margin-top: -30px;
+        margin-right: 50px;
+    }
+    #cpfyt main {
+        width: 90%;
+        margin-top: 75px;
+    }
+    #cardcontainer{
+        padding-left: 0;
+    }
+}
+@media (min-width: 375px) {
+    #cpfyt #phcontainer {
+        display: flex;
+        position: absolute;
+        width: 35%;
+        margin-top: -30px;
+        margin-left: 30px;
+    }
+    #cpfyt main {
+        width: 90%;
+        margin-top: 75px;
+    }
+    #cardcontainer{
+        padding-left: 0;
+    }
+}
+@media (min-width: 425px) {
+    #cpfyt #phcontainer {
+        display: flex;
+        position: absolute;
+        width: 35%;
+        margin-top: -30px;
+        margin-left: 45px;
+    }
+    #cpfyt main {
+        width: 90%;
+        margin-top: 75px;
+    }
+    #cardcontainer{
+        padding-left: 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+    #cpfyt #phcontainer {
+        position: absolute;
+        width: 20%;
+        height: 25%;
+        margin-left: 180px;
+        margin-top: 5px;
+    }
+    #cpfyt main {
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #cpfyt #phcontainer {
+        width: 25%;
+        height: 28%;
+        margin-left: 290px;
+        margin-top: -20px;
+        border-radius: 50%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+    #cpfyt #phcontainer {
+        width: 30%;
+        margin-top: 25px;
+        margin-left: 700px;
+    }
+    #cpfyt main {
+        margin-top: 40px;
+    }
+    #cpfyt span {
+        display: flex;
+        width: 60%;
+    }
+    #cardcontainer {
+        margin-top: 90px;
+    }
+}

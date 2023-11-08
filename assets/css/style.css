@@ -1,0 +1,93 @@
+@import url("style-responsive.css");
+body {
+    background: rgb(228,228,228);
+}
+header {
+    padding: 10px 10px;
+    background: rgb(40,5,79);
+    background: linear-gradient(90deg, rgba(40,5,79,1) 0%, rgba(0,0,0,1) 50%, rgba(40,5,79,1) 100%);
+}
+nav {
+    background: rgb(40,5,79);
+    background: linear-gradient(90deg, rgba(40,5,79,1) 0%, rgba(0,0,0,1) 50%, rgba(40,5,79,1) 100%);
+}
+#navbarNav {
+    justify-content: end;
+}
+#cpfyt {
+    display: flex;
+}
+#cpfyt h5{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+#cpfyt main {
+    width: 100%;
+}
+#cpfyt #photo {
+    width: 85%;
+    height: 75%;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 50%;
+    user-select: none;
+}
+#cardcontainer #Proyectos {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.card {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+li {
+    list-style: none;
+}
+#contact button {
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    color: white;
+    background: rgb(40,5,79);
+    background: linear-gradient(90deg, rgba(40,5,79,1) 0%, rgba(0,0,0,1) 50%, rgba(40,5,79,1) 100%);
+    border-radius: 10px;
+}
+#contact label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#contact i {
+    margin-left: 3px;
+}
+footer {
+    background: rgb(40,5,79);
+background: linear-gradient(90deg, rgba(40,5,79,1) 0%, rgba(0,0,0,1) 50%, rgba(40,5,79,1) 100%);
+padding: 30px 10px;
+   height: 100px;
+}
+footer p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+}
+footer li {
+    list-style: none;
+}
+footer #github {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+footer #linkedin {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    &:hover {
+        cursor: pointer;
+    }
+}
